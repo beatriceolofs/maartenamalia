@@ -1,0 +1,1135 @@
+/* FONTS
+
+HEADLINES ------------------------------
+font-family: 'Sacramento', cursive;
+
+TEXT ------------------------------------
+font-family: 'Source Serif Pro', serif;
+
+COLORS
+
+Dark Brown
+#2A2722
+
+Brown
+#85695B
+
+Lightbrown
+#C0AB9A
+
+Dark greenblue
+#193332
+
+Greenblue
+#6C8E99
+
+Lightblue
+#D0E9F8
+
+White
+#F0F1F8
+
+*/
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+.totop a {
+    background-color: #2A2722;
+    padding: 5px;
+    font-family: 'Source Serif Pro', serif;
+    color: #F0F1F8;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+.totop a:hover {
+    color: #F0F1F8;
+    background-color: #6C8E99;
+}
+
+.navbar-brand {
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    font-size: 8vh;
+    color: #F0F1F8;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background-color: #2A2722;
+    width: 100%;
+}
+
+.navbar ul li a {
+    font-family: 'Source Serif Pro', serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #F0F1F8;
+}
+
+.navbar ul li a:hover {
+    color: #6C8E99;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar .dropdown-menu {
+    text-decoration: none;
+    border: none;
+    border-radius: 0;
+    background-color: #2A2722;
+}
+
+
+/* INTRO */
+.bg-overlay {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .2)), url(/am1-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+#intro .row h1 {
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    color: #F0F1F8;
+    font-size: 11vmin;
+    padding-top: 50vh;
+}
+
+#intro .row h2 {
+    font-family: 'Source Serif Pro', serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F0F1F8;
+    font-size: 4vmin;
+    font-weight: 300;
+}
+
+#intro .row h3 {
+    font-family: 'Source Serif Pro', serif;
+    text-align: center;
+    font-size: 2vmin;
+    font-style: italic;
+    color: #6C8E99;
+}
+
+#introtext {
+    background-color: #85695B;
+}
+
+#introtext h1 {
+    font-family: 'Source Serif Pro', serif;
+    color: #193332;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+#introtext h2 {
+    font-family: 'Source Serif Pro', serif;
+    color: #193332;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 5vmin;
+}
+
+#introtext p {
+    font-family: 'Source Serif Pro', serif;
+    color: #2A2722;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+#introtext h3 {
+    font-family: 'Sacramento', cursive;
+    color: #2A2722;
+    font-weight: 500;
+    font-size: 7vmin;
+}
+
+/* ABOUT */
+
+#about {
+    height: 100vh;
+}
+
+.bg-overlay-2 {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(/am7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.row .when {
+    background-color: #C0AB9A;
+    border: solid #2A2722;
+}
+
+.row .when h1 {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 5vmax;
+}
+
+.row .when h1 {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.row .when h2 {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 11vmax;
+    color: #193332;
+}
+
+.row .when h3 {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 5vmax;
+    padding-bottom: 3vh;
+}
+
+.row .when h4 {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 400;
+    font-size: 5vmax;
+    font-style: italic;
+}
+
+.row .when h5 {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 900;
+    font-size: 4vmax;
+    color: #193332;
+    padding-bottom: 3vh;
+}
+
+.where {
+    background-color: #C0AB9A;
+    height: 50vh;
+    border: solid #2A2722;
+}
+
+
+
+
+/* RECOMMENDATIONS */
+
+/* FILTER */
+
+.filter a {
+    background-color: #85695B;
+    font-family: 'Source Serif Pro', serif;
+    padding: 5px;
+
+}
+
+.bg-overlay-3 {
+    background: url(/am11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    overflow: hidden;
+    text-align: center;
+}
+
+#recommendations {
+    background-color: #2A2722;
+}
+
+.rec h1 {
+    font-family: 'Sacramento', cursive;
+    color: #85695B;
+    font-weight: 400;
+    padding-top: 20px;
+    font-size: 10vmin;
+
+}
+
+.rec p {
+    font-family: 'Source Serif Pro', serif;
+    color: #F0F1F8;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.rec .btn {
+    font-family: 'Source Serif Pro', serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    border: none;
+    border-radius: 0;
+    background-color: #6C8E99;
+    color: #F0F1F8;
+    transition: 0.2s;
+}
+
+.rec .btn:hover {
+    background-color: #85695B;
+    color: #F0F1F8;
+}
+
+
+/* Accomodation */
+
+.bg-overlay-4 {
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(/am12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    text-align: center;
+    height: 40vh;
+}
+
+#accomodation {
+    height: 100vh;
+    background-color: #C0AB9A;
+}
+
+.acco h1 {
+    font-family: 'Sacramento', cursive;
+    color: #2A2722;
+    font-weight: 400;
+    padding-top: 20px;
+    font-size: 10vmin;
+}
+
+.acco p {
+    font-family: 'Source Serif Pro', serif;
+    color: #2A2722;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/* RVSP TEXT */
+
+.rvsptext h1 {
+    font-family: 'Source Serif Pro', serif;
+    color: #193332;
+    font-weight: 900;
+    padding-top: 20px;
+    letter-spacing: 1vh;
+}
+
+.rvsptext p {
+    font-family: 'Source Serif Pro', serif;
+    color: #193332;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 5vmin;
+}
+
+.rvsptext .btnrvsp {
+    font-family: 'Source Serif Pro', serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    border: none;
+    border-radius: 0;
+    background-color: #85695B;
+    color: #F0F1F8;
+    font-size: 2vmin;
+    transition: 0.2s;
+    padding: 2vmin;
+    text-decoration: none;
+}
+
+.rvsptext .btnrvsp:hover {
+    background-color: #6C8E99;
+}
+
+.colspace {
+    height: 6vh;
+}
+
+.colspace-2 {
+    height: 10vh;
+}
+
+.bg-overlay-5 {
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(/am3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+/*RVSP */
+
+#rvsptext {
+    background-color: #C0AB9A;
+}
+
+.rvsp {
+    background-color: #193332;
+}
+
+.rvspspace {
+    height: 10vh;
+}
+
+.rvsp h1 {
+    font-family: 'Source Serif Pro', serif;
+    color: #85695B;
+    font-weight: 900;
+    padding-top: 20px;
+    letter-spacing: 2vh;
+}
+
+
+.takemeback {
+    background-color: #6C8E99;
+    height: 40vh;
+}
+
+.takemeback a {
+    font-family: 'Source Serif Pro', serif;
+    color: #D0E9F8;
+    font-weight: 900;
+    padding-top: 20px;
+    font-size: 7vmax;
+    transition: 0.2s ease;
+}
+
+.takemeback a:hover {
+    font-family: 'Source Serif Pro', serif;
+    color: #193332;
+    font-weight: 900;
+    padding-top: 20px;
+    font-size: 7vmax;
+}
+
+.takemeback p {
+    font-family: 'Source Serif Pro', serif;
+    color: #193332;
+    font-weight: 500;
+    font-size: 4vmin;
+}
+
+
+/* GIFTS */
+
+.bg-overlay-6 {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .2)), url(/pic10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    overflow: hidden;
+    height: 30vh;
+    background-attachment: fixed;
+}
+
+#gifts {
+    background-color: #85695B;
+    height: 100vh;
+}
+
+.row .gifts h1 {
+    font-family: 'Sacramento', cursive;
+    color: #2A2722;
+    font-weight: 400;
+    padding-top: 20px;
+    font-size: 10vmin;
+}
+
+.row .gifts p {
+    font-family: 'Source Serif Pro', serif;
+    color: #2A2722;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+/* DRESSCODE */
+
+.bg-overlay-7 {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .2)), url(/am5.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 40vh;
+    background-attachment: fixed;
+}
+
+#dresscode {
+    background-color: #2A2722;
+    height: 110vh;
+}
+
+.dresscode h1 {
+    font-family: 'Sacramento', cursive;
+    color: #C0AB9A;
+    font-weight: 400;
+    padding-top: 20px;
+    font-size: 10vmin;
+}
+
+.dresscode h2 {
+    font-family: 'Source Serif Pro', serif;
+    color: #85695B;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 5vmin;
+}
+
+.dresscode p {
+    font-family: 'Source Serif Pro', serif;
+    color: #F0F1F8;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/* RECOMMENDATIONS */
+
+/* STORFORSEN */
+
+
+#storforsen {
+    background-color: #2A2722;
+}
+
+.storforsen h1 {
+    font-family: 'Sacramento', cursive;
+    color: #C0AB9A;
+    font-weight: 400;
+    padding-top: 20px;
+    font-size: 10vmin;
+}
+
+.storforsen h2 {
+    font-family: 'Source Serif Pro', serif;
+    color: #85695B;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 5vmin;
+}
+
+.storforsen p {
+    font-family: 'Source Serif Pro', serif;
+    color: #F0F1F8;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.storforsen a {
+    font-family: 'Source Serif Pro', serif;
+    color: #D0E9F8;
+    font-weight: 300;
+    font-size: 12px;
+    transition: 0.2s;
+    font-style: italic;
+}
+
+.storforsen a:hover {
+    color: #6C8E99;
+}
+
+.bg-overlay-8 {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .2)), url(/river.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 50vh;
+    background-attachment: fixed;
+}
+
+/* JOKKFALL */
+
+#jockfall {
+    background-color: #193332;
+}
+
+.bg-overlay-9 {
+    background: url(/jokk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 50vh;
+    background-attachment: fixed;
+}
+
+.jockfall h1 {
+    font-family: 'Sacramento', cursive;
+    color: #C0AB9A;
+    font-weight: 400;
+    padding-top: 20px;
+    font-size: 10vmin;
+}
+
+.jockfall h2 {
+    font-family: 'Source Serif Pro', serif;
+    color: #6C8E99;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 5vmin;
+}
+
+.jockfall p {
+    font-family: 'Source Serif Pro', serif;
+    color: #F0F1F8;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.jockfall a {
+    font-family: 'Source Serif Pro', serif;
+    color: #D0E9F8;
+    font-weight: 300;
+    font-size: 12px;
+    transition: 0.2s;
+    font-style: italic;
+}
+
+.jockfall a:hover {
+    color: #6C8E99;
+}
+
+
+/* ÖVERKALIX */
+
+
+#ovarkalix {
+    background-color: #F0F1F8;
+}
+
+.bg-overlay-10 {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .2)), url(/beer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 50vh;
+    background-attachment: fixed;
+}
+
+.ovarkalix h1 {
+    font-family: 'Sacramento', cursive;
+    color: #85695B;
+    font-weight: 400;
+    padding-top: 20px;
+    font-size: 10vmin;
+}
+
+.ovarkalix h2 {
+    font-family: 'Source Serif Pro', serif;
+    color: #193332;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 5vmin;
+}
+
+.ovarkalix p {
+    font-family: 'Source Serif Pro', serif;
+    color: #2A2722;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.ovarkalix a {
+    font-family: 'Source Serif Pro', serif;
+    color: #D0E9F8;
+    font-weight: 300;
+    font-size: 12px;
+    transition: 0.2s;
+    font-style: italic;
+}
+
+.ovarkalix a:hover {
+    color: #6C8E99;
+}
+
+/* KAMLUNGE */
+
+
+#kamlunge {
+    background-color: #6C8E99;
+}
+
+.bg-overlay-11 {
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(/kamlunge.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 50vh;
+    background-attachment: fixed;
+}
+
+.kamlunge h1 {
+    font-family: 'Sacramento', cursive;
+    color: #2A2722;
+    font-weight: 400;
+    padding-top: 20px;
+    font-size: 10vmin;
+}
+
+.kamlunge h2 {
+    font-family: 'Source Serif Pro', serif;
+    color: #193332;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 5vmin;
+}
+
+.kamlunge p {
+    font-family: 'Source Serif Pro', serif;
+    color: #2A2722;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.kamlunge a {
+    font-family: 'Source Serif Pro', serif;
+    color: #D0E9F8;
+    font-weight: 300;
+    font-size: 12px;
+    transition: 0.2s;
+    font-style: italic;
+}
+
+.kamlunge a:hover {
+    color: #6C8E99;
+}
+
+/* KVARNGÅRDEN */
+
+#kvarngarden {
+    background-color: #85695B;
+}
+
+.bg-overlay-12 {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .1)), url(/meadow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 50vh;
+    background-attachment: fixed;
+}
+
+.kvarngarden h1 {
+    font-family: 'Sacramento', cursive;
+    color: #2A2722;
+    font-weight: 400;
+    padding-top: 20px;
+    font-size: 10vmin;
+}
+
+.kvarngarden h2 {
+    font-family: 'Source Serif Pro', serif;
+    color: #C0AB9A;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 5vmin;
+}
+
+.kvarngarden p {
+    font-family: 'Source Serif Pro', serif;
+    color: #2A2722;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.kvarngarden a {
+    font-family: 'Source Serif Pro', serif;
+    color: #D0E9F8;
+    font-weight: 300;
+    font-size: 12px;
+    transition: 0.2s;
+    font-style: italic;
+}
+
+.kvarngarden a:hover {
+    color: #6C8E99;
+}
+
+/* KAMLUNGE */
+
+
+#kamlunge {
+    background-color: #6C8E99;
+}
+
+.bg-overlay-11 {
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(/kamlunge.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 50vh;
+    background-attachment: fixed;
+}
+
+.kamlunge h1 {
+    font-family: 'Sacramento', cursive;
+    color: #2A2722;
+    font-weight: 400;
+    padding-top: 20px;
+    font-size: 10vmin;
+}
+
+.kamlunge h2 {
+    font-family: 'Source Serif Pro', serif;
+    color: #193332;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 5vmin;
+}
+
+.kamlunge p {
+    font-family: 'Source Serif Pro', serif;
+    color: #2A2722;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.kamlunge a {
+    font-family: 'Source Serif Pro', serif;
+    color: #D0E9F8;
+    font-weight: 300;
+    font-size: 12px;
+    transition: 0.2s;
+    font-style: italic;
+}
+
+.kamlunge a:hover {
+    color: #6C8E99;
+}
+
+/* FREVIS */
+
+#frevis {
+    background-color: #6C8E99;
+}
+
+.bg-overlay-13 {
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .1)), url(/beach2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+    height: 50vh;
+    background-attachment: fixed;
+}
+
+.frevis h1 {
+    font-family: 'Sacramento', cursive;
+    color: #2A2722;
+    font-weight: 400;
+    padding-top: 20px;
+    font-size: 10vmin;
+}
+
+.frevis h2 {
+    font-family: 'Source Serif Pro', serif;
+    color: #85695B;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 5vmin;
+}
+
+.frevis p {
+    font-family: 'Source Serif Pro', serif;
+    color: #2A2722;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.frevis a {
+    font-family: 'Source Serif Pro', serif;
+    color: #D0E9F8;
+    font-weight: 300;
+    font-size: 12px;
+    transition: 0.2s;
+    font-style: italic;
+}
+
+.frevis a:hover {
+    color: #6C8E99;
+}
+
+/* STORÖN */
+
+#storon {
+    background-color: #193332;
+}
+
+.bg-overlay-14 {
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .1)), url(/beach.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+    height: 50vh;
+    background-attachment: fixed;
+}
+
+.storon h1 {
+    font-family: 'Sacramento', cursive;
+    color: #6C8E99;
+    font-weight: 400;
+    padding-top: 20px;
+    font-size: 10vmin;
+}
+
+.storon h2 {
+    font-family: 'Source Serif Pro', serif;
+    color: #C0AB9A;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 5vmin;
+}
+
+.storon p {
+    font-family: 'Source Serif Pro', serif;
+    color: #F0F1F8;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.storon a {
+    font-family: 'Source Serif Pro', serif;
+    color: #D0E9F8;
+    font-weight: 300;
+    font-size: 12px;
+    transition: 0.2s;
+    font-style: italic;
+}
+
+.storon a:hover {
+    color: #6C8E99;
+}
+
+/* CAPE EAST */
+
+#capeeast {
+    background-color: #2A2722;
+}
+
+.bg-overlay-15 {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/sauna.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+    height: 50vh;
+    background-attachment: fixed;
+}
+
+.capeeast h1 {
+    font-family: 'Sacramento', cursive;
+    color: #6C8E99;
+    font-weight: 400;
+    padding-top: 20px;
+    font-size: 10vmin;
+}
+
+.capeeast h2 {
+    font-family: 'Source Serif Pro', serif;
+    color: #F0F1F8;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 5vmin;
+}
+
+.capeeast p {
+    font-family: 'Source Serif Pro', serif;
+    color: #85695B;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.capeeast a {
+    font-family: 'Source Serif Pro', serif;
+    color: #D0E9F8;
+    font-weight: 300;
+    font-size: 12px;
+    transition: 0.2s;
+    font-style: italic;
+}
+
+.capeeast a:hover {
+    color: #6C8E99;
+}
+
+/* LULEÅ */
+
+#lulea {
+    background-color: #D0E9F8;
+}
+
+.bg-overlay-16 {
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(/luleå.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+    height: 50vh;
+    background-attachment: fixed;
+}
+
+.lulea h1 {
+    font-family: 'Sacramento', cursive;
+    color: #2A2722;
+    font-weight: 400;
+    padding-top: 20px;
+    font-size: 10vmin;
+}
+
+.lulea h2 {
+    font-family: 'Source Serif Pro', serif;
+    color: #6C8E99;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 5vmin;
+}
+
+.lulea p {
+    font-family: 'Source Serif Pro', serif;
+    color: #2A2722;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.lulea a {
+    font-family: 'Source Serif Pro', serif;
+    color: #193332;
+    font-weight: 300;
+    font-size: 12px;
+    transition: 0.2s;
+    font-style: italic;
+}
+
+.lulea a:hover {
+    color: #85695B;
+}
+
+.lulea ul li {
+    font-family: 'Source Serif Pro', serif;
+    color: #2A2722;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/* HUVVA */
+
+#huvva {
+    background-color: #F0F1F8;
+}
+
+.bg-overlay-17 {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/huuva.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+    height: 50vh;
+    background-attachment: fixed;
+}
+
+.huvva h1 {
+    font-family: 'Sacramento', cursive;
+    color: #6C8E99;
+    font-weight: 400;
+    padding-top: 20px;
+    font-size: 10vmin;
+}
+
+.huvva p {
+    font-family: 'Source Serif Pro', serif;
+    color: #193332;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.huvva a {
+    font-family: 'Source Serif Pro', serif;
+    color: #193332;
+    font-weight: 300;
+    font-size: 12px;
+    transition: 0.2s;
+    font-style: italic;
+}
+
+.huvva a:hover {
+    color: #6C8E99;
+}
+
+/* ICEHOTEL */
+
+#icehotel {
+    background-color: #6C8E99;
+}
+
+.bg-overlay-18 {
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(/icehotel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+    height: 50vh;
+    background-attachment: fixed;
+}
+
+.icehotel h1 {
+    font-family: 'Sacramento', cursive;
+    color: #2A2722;
+    font-weight: 400;
+    padding-top: 20px;
+    font-size: 10vmin;
+}
+
+.icehotel h2 {
+    font-family: 'Source Serif Pro', serif;
+    color: #D0E9F8;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 5vmin;
+}
+
+.icehotel p {
+    font-family: 'Source Serif Pro', serif;
+    color: #F0F1F8;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.icehotel a{
+    font-family: 'Source Serif Pro', serif;
+    color: #F0F1F8;
+    font-weight: 300;
+    font-size: 12px;
+    transition: 0.2s;
+    font-style: italic;
+}
+
+.icehotel a:hover {
+    color: #193332;
+}
